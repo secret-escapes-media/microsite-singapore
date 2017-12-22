@@ -1,0 +1,127 @@
+// general styles for the project that wouldn't be a reuseable component
+
+
+.bg {
+  &--grey-dark      { background-color: $grey-dark; }
+  &--grey-lightest  { background-color: $grey-lightest; }
+  &__fixed {
+    position: relative;
+    & * { z-index: $z-content-upper; }
+    &-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: $z-content;
+      width: 100%;
+      height: 100%;
+      .svgclippaths & { clip: rect(0, auto, auto, 0); }
+    }
+    &-img {
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 180%;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      .svgclippaths & {
+        position: fixed;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        transform: translateZ(0);
+        will-change: transform;
+      }
+    }
+  }
+}
+
+.page--overview .banner__bg { background-position: bottom center; }
+
+.content-bg {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.drop-words {
+  color: $sg-red;
+  font-family: $font-family-headline-01;
+  font-weight: 500;
+  font-size: $s3;
+  line-height: 0;
+  @include bp(xxxl){
+    display: inline-block;
+    margin-left: -$s6;
+  }
+}
+
+
+.section {
+  padding-top: $s11;
+  padding-bottom: $s11;
+  &__title {
+    position: relative;
+    padding-top: $s11;
+    padding-bottom: $s11;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 321px;
+  }
+}
+
+
+
+.is-stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: $z-nav-upper;
+}
+
+.promo {
+  display: table;
+  width: 100%;
+  // height: 600px; this is the right height for two promo items
+  height: 500px;
+  color: $white;
+  text-align: center;
+  table-layout: fixed;
+  background-color: $grey-dark;
+  &__item {
+    display: table-cell;
+    vertical-align: middle;
+    @include background-attributes;
+  }
+}
+
+footer .site-nav {
+  border-top: 0;
+  background-color: $grey-darker;
+}
+
+
+.center {
+  margin-right: auto; margin-left: auto;
+  &--lg  { @include bp(lg){ margin-right: initial; margin-left: initial; } }
+  &--xl  { @include bp(xl){ margin-right: initial; margin-left: initial; } }
+  &--xxl { @include bp(xxl){ margin-right: initial; margin-left: initial; } }
+}
+
+br.desktop-break {
+  display: none;
+  @include bp(xl){ display: block; }
+}
+
+
+.width {
+  &--xs { max-width: 180px; }
+  &--sm { max-width: $sm; }
+  &--md { max-width: $md; }
+  &--lg { max-width: $lg; }
+}

@@ -1,0 +1,21 @@
+<div class="banner">
+  <div class="banner__bg" style="background-image: url({{site.baseurl}}/img/bg/{{page.id}}.jpg);"></div>
+  <div class="banner__content site-header__offset-padding">
+    <div class="row row--padding">
+      {% if page.banner.content %}
+        {{page.banner.content | liquify}}
+      {% else %}
+        {% if page.banner.title-super %}<div class="title title--display title--super title--xs title--upper title--kerning-lg">{{page.banner.title-super}}</div>{% endif %}
+          {% if page.banner.title %}
+          <h1 class="title title--display title--xxxl">{{page.banner.title}}
+          {% else %}
+          <h1 class="title title--display title--xxxl">{{page.title}}
+          {% endif %}</h1>
+        {% if page.banner.title-sub %}<div class="title title--display title--sub title--xs title--upper title--kerning-lg">{{page.banner.title-sub}}</div>{% endif %}
+      {% endif %}
+    </div>
+  </div>
+  <div class="banner__nav site-header__offset-padding">
+    {% include nav/microsite-nav.html %}
+  </div>
+</div>

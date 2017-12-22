@@ -1,0 +1,18 @@
+# Site settings
+title: Singapore
+client:
+  name: Visit Singapore
+  link: http://www.visitsingapore.com/en/
+description: >
+  “The little red dot” it may be, but vibrant Singapore is packed with unexpected adventures. From charming shophouses and the futuristic towers of Marina Bay to the bustling hawkers and outstanding restaurant scene, it’s a place for explorers, foodies and culture-shapers. Our Asia editor and Singapore resident Jessica Little gives the lowdown on where to go and what to see in four days.
+baseurl: "/singapore" # the subpath of your site, e.g. /blog/
+url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js, competition]
+keep_files: [js/scripts.min.js]
+sass:
+    sass_dir: css
+    style: compressed

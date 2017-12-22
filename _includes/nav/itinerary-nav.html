@@ -1,0 +1,9 @@
+<!-- SITE NAV -->
+<div class="itinerary-nav js-sticky">
+  <div class="itinerary-nav__wrap">
+    <ul class="itinerary-nav__list">
+      {% assign nav-group = site.data.itinerary %}
+      {% for nav-item in nav-group %}<li class="itinerary-nav__item itinerary-nav__item--{{nav-item.id}}"><a class="itinerary-nav__link" href="#{{nav-item.id}}">{{nav-item.sub-title}}</a></li>{% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,130 @@
+---
+layout: default
+id: overview
+nav-order: 1
+title: Itinerary
+extra-js: true
+
+banner:
+  content: >
+    <h1 class="hidden">Singapore</h1>
+    <img src="{{site.baseurl}}/img/content/title.png" alt="Singapore">
+    <div class="space--sm"></div>
+    <h2 class="title title--sub title--upper title--xs title--kerning title--bold">The tropical city-state in four days</h2>
+
+---
+
+<div class="page__content">
+  <div class="row row--padding">
+    <div class="space--xxl"></div>
+    <div class="row row--xxl row--9-3-gutters row--valign">
+      <div class="col">
+        <p class="text--lg"><span class="drop-words">“The little red dot”</span> it may be, but vibrant Singapore is packed with unexpected adventures. From charming shophouses and the futuristic towers of Marina Bay to the bustling hawkers and outstanding restaurant scene, it’s a place for explorers, foodies and culture-shapers. Our Asia editor and Singapore resident <a id="track-jess-text" class="js-open-modal text--bold" data-open-modal="jess">Jessica Little</a> gives the lowdown on where to go and what to see in four days.</p>
+      </div>
+      <div class="col">
+        <div class="center center--lg width--xs">
+          <a id="track-jess-image" class="js-open-modal" data-open-modal="jess"><div style="background-image: url('{{site.baseurl}}/img/content/jess.jpg');" class="bg-img bg-img--circle"></div></a>
+        </div>
+      </div>
+    </div>
+    <div class="row row--4-4-4-gutters text--center">
+      {% for topic in site.data.topics %}
+      <div class="col">
+        <div class="center center--lg width--md">
+          <div style="background-image: url('{{site.baseurl}}/img/content/topics/{{topic.id}}.jpg');" class="bg-img bg-img--16-9">
+            <a id="track-topic-{{topic.id}}" class="bg-img__link js-open-modal js-enable-videos" data-open-modal={{topic.id}}></a>
+            <div class="bg-img__content title title--upper title--kerning title--bold">
+              {{topic.title}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="space--xxxl"></div>
+  </div>
+</div>
+
+<!-- sticky nav for itinerary page -->
+<div class="row row--100 js-sticky-wrap">{% include nav/itinerary-nav.html %}</div>
+
+<div class="page__content">
+
+  {% for day in site.data.itinerary %}
+  <div id="{{day.id}}" class="section section--day bg__fixed">
+    <div class="bg__fixed-wrap">
+      <div class="bg__fixed-img" style="background-image: url('{{site.baseurl}}/img/bg/{{day.id}}.jpg');"></div>
+    </div>
+    <div class="row--padding">
+      <div class="section__title row row--xl text--center" style="background-image: url('{{site.baseurl}}/img/content/itinerary/numbers/{{day.id}}.svg');">
+        <h3 class="title title--xxxs title--upper title--bold title--kerning text--red">{{day.sub-title}}</h3>
+        <h2 class="title title--lg title--upper">{{day.title}}</h2>
+      </div>
+      <div class="space--xl"></div>
+      {% for activity in day.activities %}
+        {% if activity.three-sixty %}
+        <div class="row row--xxxl text--center">
+          <a id="track-360-{{activity.three-sixty.id}}" href="{{site.baseurl}}{{activity.three-sixty.link}}" target="_blank">
+            <div class="bg-img bg-img--2-3 bg-img--md-4-3 bg-img--xl-21-9" style="background-image: url('{{site.baseurl}}/img/content/itinerary/{{day.id}}/{{activity.id}}.jpg');">
+              {% if activity.category %}<div class="bg-img__label text--sm title title--upper title--kerning">{{activity.category}}</div>{% endif %}
+              <div class="bg-img__content"><span class="btn btn--red-trans">See {{activity.three-sixty.title}} in 360</span></div>
+            </div>
+          </a>
+        </div>
+        {% else %}
+        <div class="row row--xl text--center">
+          <div class="bg-img bg-img--3-2" style="background-image: url('{{site.baseurl}}/img/content/itinerary/{{day.id}}/{{activity.id}}.jpg');">{% if activity.category %}<div class="bg-img__label text--sm title title--upper title--kerning">{{activity.category}}</div>{% endif %}</div>
+        </div>
+        {% endif %}
+        <div class="row row--lg text--center">
+          <h3 class="title title--xxxs title--upper title--kerning title--super text--red">{{activity.time}}</h3>
+          <h2 class="title title--lg title--light">{{activity.title}}</h2>
+          <p class="line-length">{{activity.description}}</p>
+          {% if activity.expert %}
+            {% assign this-expert = site.data.experts | where: "id", activity.expert %}
+            {% assign this-expert = this-expert[0] %}
+            <a id="track-expert-{{activity.expert}}" class="btn btn--red js-open-modal" data-open-modal="{{activity.expert}}">See {{this-expert.name | truncatewords: 1 | remove: '...'}}'s Interview</a>
+          {% endif %}
+          <div class="space--xl"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="promo">
+    <div class="promo__item" style="background-image: url('{{site.baseurl}}/img/bg/promo/offers.jpg');">
+      <div class="promo__content">
+        <div class="row row--padding row--xxl">
+          {% assign cheapest-offer = site.data.offers | sort: 'price' | first %}
+          <div class="title title--super title--upper title--xxs title--kerning">Make it happen</div>
+          <div class="title title--xxl">Singapore offers</div>
+          <p>You could be there from <span class="text--xl">£{{cheapest-offer.price}}</span> {{cheapest-offer.price-description}}</p>
+          <a id="track-btn-offers" class="btn btn--red" href="{{site.baseurl}}/offers">See Offers</a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="promo__item" style="background-image: url('{{site.baseurl}}/img/bg/promo/offers.jpg');">
+      <div class="promo__content">
+        <div class="row row--padding row--lg">
+          {% assign cheapest-offer = site.data.offers | sort: 'price' | first %}
+          <div class="title title--super title--upper title--xxxs title--kerning">Make it happen</div>
+          <div class="title title--xl">Singapore offers</div>
+          <p>You could be there from <span class="text--xl">£{{cheapest-offer.price}}</span> {{cheapest-offer.price-description}}</p>
+          <a class="btn btn--red" href="{{site.baseurl}}/offers">See Offers</a>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="promo__item" style="background-image: url('{{site.baseurl}}/img/bg/promo/competition.jpg');">
+      <div class="promo__content">
+        <div class="row row--padding row--lg">
+          <div class="title title--super title--upper title--xxxs title--kerning">Try Your Luck</div>
+          <div class="title title--xl">Win this trip</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis commodi id enim! Autem sunt perspiciatis alias cumque necessitatibus adipisci earum.</p>
+          <a class="btn btn--red" href="{{site.baseurl}}/competition">Enter Now</a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+</div>

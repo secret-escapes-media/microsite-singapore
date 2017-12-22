@@ -1,0 +1,17 @@
+- id: jess
+  pages:
+    - id: overview
+  content: >
+    <div class="row row--valign row--3-9-gutters">
+      <div class="col text--center">
+        <div class="center center--lg width--xs">
+          <div class="bg-img bg-img--circle" style="background-image: url('{{site.baseurl}}/img/content/jess.jpg')"></div>
+        </div>
+      </div>
+      <div class="col text--center text--center-lg">
+        <h3 class="title title--xl title--light">Jessica Little</h3>
+        <h4 class="title title--upper title--kerning title--sub">Managing Editor Asia</h4>
+      </div>
+    </div>
+    <div class="space--md"></div>
+    <p class="text--lg">As a hardened Londoner with a black belt in rush-hour tube skills, it was much to my own surprise that I found myself swapping the big smoke for a tropical country half the size. Here on the equator, life moves at a less frenetic pace - strange for a nation that’s evolved so rapidly into the thriving, modern city-state it is today. I love Singapore not just because the sun shines year-round and the subway is heavily air-conditioned, but because of its hidden enclaves and the sheer variety of architecture, culture and cuisines. Whether it’s a Michelin-star tasting menu or a simple bowl of noodles, the food rarely disappoints - and if there’s one thing Singaporeans love, it’s telling you where to find the very best.</p>

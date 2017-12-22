@@ -1,0 +1,26 @@
+<div class="modal modal--standard is-closed" data-modal-id="{{expert.id}}">
+  <div class="js-close-modal modal__close"></div>
+  <div class="modal__content page__content">
+    <div class="vpad--sm text--center">
+      <h4 class="title title--xs title--upper title--kerning title--bold">{{expert.title}}</h4>
+    </div>
+    <div class="row row--valign row--4-8-gutters">
+      <div class="col">
+        <div class="center center--lg width--sm">
+          <div class="bg-img bg-img--circle" style="background-image: url('{{site.baseurl}}/img/content/experts/{{expert.id}}.jpg')"></div>
+        </div>
+      </div>
+      <div class="col text--center text--center-lg">
+        <h3 class="title title--xl title--light">{{expert.name}}</h3>
+        <h4 class="title title--upper title--kerning title--sub">{{expert.occupation}}</h4>
+      </div>
+    </div>
+    {% for question in expert.questions %}
+      <div class="row">
+        <p class="text--bold">{{question.question}}</p>
+        <p>{{question.answer}}</p>
+      </div>
+    {% endfor %}
+    <div class="space--md"></div>
+  </div>
+</div>

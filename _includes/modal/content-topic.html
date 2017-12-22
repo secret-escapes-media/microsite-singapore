@@ -1,0 +1,18 @@
+<div class="modal modal--standard is-closed" data-modal-id="{{topic.id}}">
+  <div class="js-close-modal modal__close js-disable-videos"></div>
+  <div class="modal__content page__content">
+    <div class="vpad--md text--center">
+      <h4 class="title title--md title--upper title--kerning title--bold">{{topic.title}}</h4>
+    </div>
+    <div class="row">
+      <div class="video">
+        <iframe class="video__iframe js-video-toggle" data-src="https://www.youtube.com/embed/{{topic.youtube-id}}?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="space--lg"></div>
+    <div class="text--center">
+      <p class="text--lg line-length--lg">{{topic.description}}</p>
+    </div>
+    <div class="space--md"></div>
+  </div>
+</div>
