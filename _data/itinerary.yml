@@ -12,13 +12,13 @@
     - id: noon
       title: Cycling on the East Coast
       time: 1pm
-      description:  Cycling is a brilliant way to see the city and it's been made easy thanks to a number of Boris-style schemes that allow you to hop on a bike and park it anywhere. One of the main routes is the East Coast Park, where you'll be pedaling alongside joggers, bladers and dog walkers. It's where everyone goes for a spot of fresh air by the sea, but if you're feeling a bit more intrepid, cycle your way up to Changi to catch a bumboat to Pulau Ubin. It’s one of Singapore’s many offshore islands and also one of the few places where traditional ‘kampong’ houses still exist. Unexpectedly, there’s a large English house built in Tudor style on the edge of the jungle - a jarring sight that harks back to colonial times.
+      description: Cycling is a brilliant way to see the city and it's been made easy thanks to a number of Boris-style schemes that allow you to hop on a bike and park it anywhere. One of the main routes is the East Coast Park, where you'll be pedaling alongside joggers, bladers and dog walkers. It's where everyone goes for a spot of fresh air by the sea, but if you're feeling a bit more intrepid, cycle your way up to Changi to catch a bumboat to Pulau Ubin. It’s one of Singapore’s many offshore islands and also one of the few places where traditional ‘kampong’ houses still exist. Unexpectedly, there’s a large English house built in Tudor style on the edge of the jungle - a jarring sight that harks back to colonial times.
       category: explore
 
     - id: afternoon
       title: Haji Lane
       time: 4pm
-      description: Singapore is a melting pot of cultures and it’s something that gives the city a unique vibrancy. Kampong Glam is a mixed bag of Malay and Middle Eastern heritage and is dominated by the majestic golden-domed Sultan Mosque. It’s probably the city’s most eclectic enclave, with everything from homely Muslim cafes and Persian rug sellers to hidden nightcap spots with no menus (let the bartenders get creative). Always-bustling Haji Lane is the star. Tightly packed with independent boutiques and often host to low-key acoustic performances, it’s Singapore’s answer to Brick Lane or Portobello. Come here if only to check out the work of celebrated street artists at the Beach Road end and throughout the area.
+      description: Singapore is one of the world’s finest examples of a melting-pot culture and it’s something that gives the city a unique vibrancy. Kampong Glam is a mixed bag of Malay and Middle Eastern heritage and is dominated by the majestic golden-domed Sultan Mosque. It’s probably the city’s most eclectic enclave, with everything from homely Muslim cafes and Persian rug sellers to hidden nightcap spots with no menus (let the bartenders get creative). Always-bustling Haji Lane is the star. Tightly packed with independent boutiques and often host to low-key acoustic performances, it’s Singapore’s answer to Brick Lane or Portobello. Come here if only to check out the work of celebrated street artists at the Beach Road end and throughout the area.
       category: culture
 
     - id: night
@@ -99,7 +99,7 @@
 
 - id: day-four
   sub-title: Day Four
-  title: "MacRitchie, Manhattan <br class=\"desktop-break\">& Marina Bay Sands"
+  title: "MacRitchie, Manhattan <br class=\"desktop-break\">& MBS"
   activities:
 
     - id: morning

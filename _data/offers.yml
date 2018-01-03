@@ -1,29 +1,33 @@
-- title: Ramada Singapore at Zhongshan Park
-  id: ramada-singapore-at-zhongshan-park
-  location: Singapore
-  description: Stylish digs by a park in the heart of Singapore - breakfast included
-  price: 91
-  price-description: per room per night
-  saved: 54
-  expires: 2017/12/26
-  link: https://www.secretescapes.com/ramada-singapore-at-zhongshan-park-singapore/sale?utm_source=SE_SingaporeTB&utm_campaign=STB_2017
 
-- title: M Social Singapore
-  id: m-social-singapore
-  location: Singapore
-  description: A riverside pad on Robertson Quay, with interiors by legendary designer, Philippe Starck
-  price: 91
-  price-description: per room per night
-  saved: 29
-  expires: 2017/12/26
-  link: https://www.secretescapes.com/m-social-singapore-singapore/sale?utm_source=SE_SingaporeTB&utm_campaign=STB_2017
 
-- title: Amara Sanctuary Resort Sentosa
-  id: amara-sanctuary-resort-sentosa
-  location: Singapore
-  description: A romantic escape, minutes away from Singapore's cosmopolitan centre
-  price: 130
+
+
+- title: Dorsett Singapore
+  id: dorsett-singapore
+  location: Outram, Singapore
+  description: A slick city pad in a diverse heritage district of Singapore
+  price: 94
   price-description: per room per night
-  saved: 40
-  expires: 2017/12/26
-  link: https://www.secretescapes.com/amara-sanctuary-resort-sentosa-sentosa-island-singapore/sale?utm_source=SE_SingaporeTB&utm_campaign=STB_2017
+  saved: 51
+  expires: 2018/01/09
+  link: https://www.secretescapes.com/dorsett-singapore-outram-singapore/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Singapore_Jan2018
+
+- title: Singapore & Bintan Island city-to-beach getaway
+  id: singapore-bintan-island-city-to-beach-getaway
+  location: Modern hotels in Singapore & Indonesia
+  description: Philippe Starck digs in Singapore and a beach break in Bintan
+  price: 1289
+  price-description: per person for 9 nights
+  saved: 32
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/singapore-and-bintan-island-city-to-beach-getaway-with-modern-hotels-in-singapore-and-indonesia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Singapore_Jan2018
+
+- title: 5* Singapore & Bali holiday with iconic hotel stays
+  id: 5-singapore-bali-holiday-with-iconic-hotel-stays
+  location: Shangri-La Singapore & Grand Hyatt Bali
+  description: Two mesmerising five-star stays in Singapore and Bali
+  price: 1499
+  price-description: per person for 8 nights
+  saved: 30
+  expires: 2018/01/23
+  link: https://www.secretescapes.com/luxury-singapore-and-bali-bali-indonesia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Singapore_Jan2018
