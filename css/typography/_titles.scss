@@ -10,8 +10,11 @@
   text-rendering: optimizeLegibility;
   &--display {
     line-height: 1;
-    letter-spacing: 0.175em;
     text-transform: uppercase;
+    letter-spacing: 0;
+    @include bp(lg){
+      letter-spacing: 0.175em;
+    }
   }
 
   &--core {
@@ -22,8 +25,8 @@
   }
 
   & + *         { padding-top: .25em; }
-  &--sub        { padding-top: 0 !important; }
-  &--super + *  { padding-top: 0 !important; }
+  &--sub        { padding-top: 1em !important; }
+  &--super + *  { padding-top: .15em !important; }
   &--light      { font-weight: 200; }
   &--bold       { font-weight: 800; }
   &--kerning    { letter-spacing: .25em; }
@@ -36,7 +39,7 @@
 
   &--xxxxxl       { font-size: $s7; }
   &--xxxxl        { font-size: $s7; }
-  &--xxxl         { font-size: $s7; }
+  &--xxxl         { font-size: $s6; }
   &--xxl          { font-size: $s6; }
   &--xl           { font-size: $s5; }
   &--lg           { font-size: $s4; }
@@ -68,6 +71,12 @@
     &--xs           { font-size: $s3; }
     &--xxs          { font-size: $s2; }
     &--xxxs         { font-size: $s1; }
+  }
+
+  &--competition {
+    font-size: $s4;
+    @include bp(md){ font-size: $s7; }
+    @include bp(lg){ font-size: $s9; }
   }
 
   &--line {

@@ -86,5 +86,8 @@ if ("ontouchstart" in document.documentElement){
   var navHeight = $('.js-sticky-wrap').outerHeight() + 'px';
   $('.js-sticky-wrap').css('height', navHeight);
 
-  $(document).ready(function() { stickNav(); });
-  $(document).scroll(function() { stickNav(); });
+  if( $('.itinerary-nav').hasClass('js-sticky') ){
+    $(document).ready(function() { stickNav(); });
+    $(document).scroll(function() { stickNav(); });
+  }
+    
