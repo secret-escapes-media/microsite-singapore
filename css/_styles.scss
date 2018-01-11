@@ -92,9 +92,13 @@
   table-layout: fixed;
   background-color: $grey-dark;
   &__item {
-    display: table-cell;
-    vertical-align: middle;
     @include background-attributes;
+    padding: 4em 2em;
+    vertical-align: middle;
+    display: block;
+    @include bp(lg){
+      display: table-cell;
+    }
   }
 }
 
