@@ -19,7 +19,7 @@
   price: 1289
   price-description: per person for 9 nights
   saved: 32
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/singapore-and-bintan-island-city-to-beach-getaway-with-modern-hotels-in-singapore-and-indonesia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Singapore_Jan2018
 
 - title: 5* Singapore & Bali holiday with iconic hotel stays
@@ -29,15 +29,25 @@
   price: 1499
   price-description: per person for 8 nights
   saved: 30
-  expires: 2018/01/23
+  expires: 2018/01/30
   link: https://www.secretescapes.com/luxury-singapore-and-bali-bali-indonesia/sale?utm_source=SE_MEDIA&utm_medium=hub&utm_campaign=Singapore_Jan2018
 
-- title: Amara Sanctuary Resort Sentosa
-  id: amara-sanctuary-resort-sentosa
-  location: Sentosa Island, Singapore
-  description: A romantic escape, minutes away from Singapore's cosmopolitan centre
-  price: 125
-  price-description: per room per night
-  saved: 38
-  expires: 2018/01/16
-  link: https://www.secretescapes.com/amara-sanctuary-resort-sentosa-sentosa-island-singapore/sale?utm_source=SE_Media&utm_medium=Singapore_Jan2018&utm_campaign=STB_2017
+- title: Park Hotel Clarke Quay
+  id: park-hotel-clarke-quay
+  location: Singapore
+  description: Singapore F1 Grand Prix tickets with a luxe base
+  price: 1299
+  price-description: per person for 4 nights
+  saved:  26
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/singapore-grand-prix-holiday-park-hotel-clarke-quay-singapore/sale?utm_source=SE_Media&utm_medium=Singapore_Jan2018&utm_campaign=STB_2017
+
+- title: Sensational Singapore city break & Thailand island-hop
+  id: sensational-singapore-city-break-thailand-island-hop
+  location: Singapore, Koh Samui & Koh Phangan
+  description: A Singapore sojourn and exquisite Thai island stays
+  price: 1899
+  price-description: per person for 14 nights
+  saved: 47
+  expires: 2018/01/30
+  link: https://www.secretescapes.com/sensational-singapore-city-break-and-thailand-island-hop-singapore-koh-samui-and-koh-phangan/sale?utm_source=SE_Media&utm_medium=Singapore_Jan2018&utm_campaign=STB_2017
