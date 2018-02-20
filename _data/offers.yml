@@ -1,22 +1,6 @@
-- id: park-hotel-clarke-quay
-  title: Park Hotel Clarke Quay
-  location: Singapore
-  description: Incredible jet-set break to Singapore with three-day tickets to the Singapore F1 Grand Prix and entry to the after-race concert, based at the stunning Park Hotel Clarke Quay - all travel included
-  price: 1299
-  price-description: per person for 4 nights
-  saved: 26
-  expires: 2018/02/06
-  link: https://www.secretescapes.com/singapore-grand-prix-holiday-park-hotel-clarke-quay-singapore/sale?utm_source=SE_Media&utm_medium=Singapore_Jan2018&utm_campaign=STB_2017
 
-- id: sensational-singapore-city-break-thailand-island-hop
-  title: Sensational Singapore city break & Thailand island-hop
-  location: Singapore, Koh Samui & Koh Phangan
-  description: A fantastic holiday taking you from cutting-edge Singapore to island beach bliss in Thailand, with a massage, plenty of discounts and all travel included
-  price: 1899
-  price-description: per person for 14 nights
-  saved: 47
-  expires: 2018/02/13
-  link: https://www.secretescapes.com/sensational-singapore-city-break-and-thailand-island-hop-singapore-koh-samui-and-koh-phangan/sale?utm_source=SE_Media&utm_medium=Singapore_Jan2018&utm_campaign=STB_2017
+
+
 
 - id: naumi
   title: Naumi
@@ -28,6 +12,8 @@
   expires: 2018/02/13
   link: https://www.secretescapes.com/naumi-singapore/sale?gce_sa=0&utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
 
+
+
 - id: singapore-penang-holiday
   title: 5* Singapore & Penang holiday
   location: Singapore & Peninsular Malaysia
@@ -38,6 +24,8 @@
   expires: 2018/02/27
   link: https://www.secretescapes.com/5-star-singapore-and-penang-holiday-shangri-la-hotels-in-singapore-and-peninsular-malaysia/sale?gce_sa=0&utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
 
+
+
 - id: luxury-singapore-bali-holiday-with-excursions
   title: Luxury Singapore & Bali holiday with excursions
   location: Singapore, Ubud & Nusa Dua
@@ -47,3 +35,17 @@
   saved: 24
   expires: 2018/02/27
   link: https://www.secretescapes.com/relaxing-singapore-and-bali-holiday-with-excursions-singapore-ubud-and-nusa-dua/sale?gce_sa=0&utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
+
+
+
+- id: ramada-singapore-at-zhongshan-park
+  title: Ramada Singapore at Zhongshan Park
+  location: Singapore
+  description: Stylish digs by a park in the heart of Singapore - breakfast included
+  price: 97
+  price-description: per room per night
+  saved: 57
+  expires: 2018/02/27
+  link: https://www.secretescapes.com/ramada-singapore-at-zhongshan-park-singapore/sale?utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
+
+
