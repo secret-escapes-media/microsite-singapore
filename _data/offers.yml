@@ -2,50 +2,51 @@
 
 
 
-- id: naumi
-  title: Naumi
+- id: yotel-singapore-orchard-road
+  title: Yotel Singapore Orchard Road
   location: Singapore
-  description: A boutique Singapore stay with a rooftop infinity pool, breakfast included
-  price: 146
+  description: A high-tech hideaway in Singapore’s shopping and entertainment district
+  price: 104
   price-description: per room per night
-  saved: 34
-  expires: 2018/02/13
-  link: https://www.secretescapes.com/naumi-singapore/sale?gce_sa=0&utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
+  saved: 55
+  expires: 2018/03/18
+  link: https://www.secretescapes.com/yotel-singapore-orchard-road-singapore/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Singapore_March2018
 
 
 
-- id: singapore-penang-holiday
-  title: 5* Singapore & Penang holiday
-  location: Singapore & Peninsular Malaysia
-  description: Four nights in Singapore and seven nights at a tropical Penang resort, with five-star Shangri-La luxury, breakfast and all travel included
-  price: 1599
-  price-description: per person for 11 nights
-  saved: 27
-  expires: 2018/02/27
-  link: https://www.secretescapes.com/5-star-singapore-and-penang-holiday-shangri-la-hotels-in-singapore-and-peninsular-malaysia/sale?gce_sa=0&utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
+- id: sensational-singapore-city-break-thailand-beach-hop
+  title: Sensational Singapore city break & Thailand beach-hop
+  location: Singapore, Khao Lak & Phuket
+  description: A Singapore sojourn and exquisite Thai beach stays
+  price: 1349
+  price-description: per person for 12 nights
+  saved: 31
+  expires: 2018/03/18
+  link:  https://www.secretescapes.com/sensational-singapore-city-break-and-thailand-beach-hop-singapore-khao-lak-and-phuket/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Singapore_March2018
 
 
 
-- id: luxury-singapore-bali-holiday-with-excursions
-  title: Luxury Singapore & Bali holiday with excursions
-  location: Singapore, Ubud & Nusa Dua
-  description: An unforgettable 13-night journey from Singapore to Bali with beautiful, traditionally-themed hillside and beach stays - all travel included
-  price: 1899
-  price-description: per person for 13 nights
-  saved: 24
-  expires: 2018/02/27
-  link: https://www.secretescapes.com/relaxing-singapore-and-bali-holiday-with-excursions-singapore-ubud-and-nusa-dua/sale?gce_sa=0&utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
+- id: showstopping-cities-of-the-east-tour-with-optional-dubai-stay
+  title: Showstopping 'cities of the East' tour with optional Dubai stay
+  location: Hong Kong, Bangkok, Kuala Lumpur & Singapore
+  description: Four stunning cities in Southeast Asia, plus an optional Dubai add-on
+  price: 1799
+  price-description: per person for 12 nights
+  saved: 26
+  expires: 2018/03/18
+  link: https://www.secretescapes.com/cities-of-the-east-hong-kong-bangkok-kuala-lumpur-and-singapore/sale
 
 
 
-- id: ramada-singapore-at-zhongshan-park
-  title: Ramada Singapore at Zhongshan Park
-  location: Singapore
-  description: Stylish digs by a park in the heart of Singapore - breakfast included
-  price: 97
-  price-description: per room per night
-  saved: 57
-  expires: 2018/02/27
-  link: https://www.secretescapes.com/ramada-singapore-at-zhongshan-park-singapore/sale?utm_source=SE_Media&utm_medium=Singapore&utm_campaign=2018
+- id: luxurious-singapore-bali-holiday-with-a-private-pool-suite
+  title: Luxurious Singapore & Bali holiday with a private pool suite
+  location: Hotel G Singapore & The Royal Purnama Art Suites & Villas
+  description: Discover Singapore's sizzling energy and Bali's blissful beaches
+  price: 1339
+  price-description: per person for 10 nights
+  saved: 33
+  expires: 2018/03/18
+  link: https://www.secretescapes.com/luxurious-singapore-and-bali-holiday-hotel-g-singapore-and-the-royal-purnama-art-suites-and-villas/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Singapore_March2018
+
 
 
