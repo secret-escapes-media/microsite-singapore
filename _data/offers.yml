@@ -1,7 +1,3 @@
-
-
-
-
 - id: showstopping-cities-of-the-east-tour-with-optional-dubai-stay
   title: Showstopping 'cities of the East' tour with optional Dubai stay
   location: Hong Kong, Bangkok, Kuala Lumpur & Singapore
@@ -9,10 +5,8 @@
   price: 1799
   price-description: per person for 12 nights
   saved: 26
-  expires: 2018/03/18
+  expires: 2018/03/27
   link: https://www.secretescapes.com/cities-of-the-east-hong-kong-bangkok-kuala-lumpur-and-singapore/sale
-
-
 
 - id: luxurious-singapore-bali-holiday-with-a-private-pool-suite
   title: Luxurious Singapore & Bali holiday with a private pool suite
@@ -21,8 +15,25 @@
   price: 1339
   price-description: per person for 10 nights
   saved: 33
-  expires: 2018/03/18
+  expires: 2018/03/27
   link: https://www.secretescapes.com/luxurious-singapore-and-bali-holiday-hotel-g-singapore-and-the-royal-purnama-art-suites-and-villas/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Singapore_March2018
 
+- id: yotel-singapore-orchard-road
+  title: Yotel Singapore Orchard Road
+  location: Singapore
+  description: A high-tech hideaway in Singapore’s shopping and entertainment district
+  price: 104
+  price-description: per room per night
+  saved: 42
+  expires: 2018/03/27
+  link: https://www.secretescapes.com/yotel-singapore-orchard-road-singapore/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Singapore_March2018
 
-
+- id: days-hotel-singapore-at-zhongshan-park
+  title: Days Hotel Singapore At Zhongshan Park
+  location: Singapore
+  description: A convenient base in Singapore's smart Novena district - breakfast included
+  price: 72
+  price-description: per room per night
+  saved: 61
+  expires: 2018/03/27
+  link: https://www.secretescapes.com/days-hotel-singapore-at-zhongshan-park-singapore/sale?utm_source=Singapore&utm_medium=SE_Media&utm_campaign=2018
